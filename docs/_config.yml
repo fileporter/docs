@@ -3,9 +3,9 @@ description: a documentation about fileporter
 remote_theme: just-the-docs/just-the-docs@v0.4.2
 #remote_theme: pmarsceill/just-the-docs
 
-baseurl: "/fileporter" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 #url: https://fileporter.github.io
-repository: fileporter/fileporter # for github-metadata
+repository: fileporter/docs # for github-metadata
 
 
 logo: "/assets/logo512.png"
@@ -36,7 +36,7 @@ footer_content: "Copyright &copy; 2023 PlayerG9."
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/fileporter/fileporter" # the github URL for your repo
+gh_edit_repository: "https://github.com/fileporter/docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
