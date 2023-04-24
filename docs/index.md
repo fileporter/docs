@@ -4,13 +4,24 @@ layout: home
 nav_order: -1
 ---
 
-![pages-build-deployment](https://github.com/fileporter/fileporter/actions/workflows/pages/pages-build-deployment/badge.svg)
+![pages-build-deployment](https://github.com/fileporter/docs/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 # ![logo](assets/logo512.png){:style="height: 30px"} fileporter
 {: .text-center }
 
+Serve a directory in your local network for view over the browser
+
 [getting started](getting-started/index.md){: .btn .btn-blue .fs-5 }
 {: .d-flex .flex-justify-around }
+
+After installation you also have access to the `fileporter --help` or `man fileporter` commands.
+
+## More about fileporter
+
+> fileporter can be used to quickly share a directory for a good read-only browser view on mobile, desktop or other devices.
+> though a [password](./configuration/index.md#password) you are able to ensure that your files don't enter the wrong hands.
+
+> fileporter also supports the deployment on a server
 
 ## Example usage
 
