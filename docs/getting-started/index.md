@@ -18,12 +18,12 @@ nav_order: 0
 ## Installation
 
 ```bash
-cat https://github.com/fileporter/fileporter/raw/main/scripts/installer | bash
+curl -s https://raw.githubusercontent.com/fileporter/fileporter/main/scripts/installer | bash
 ```
 
 it is also possible to specify the directory name
 ```bash
-cat https://github.com/fileporter/fileporter/raw/main/scripts/installer | bash -s -- {directory-name}
+curl -s https://raw.githubusercontent.com/fileporter/fileporter/main/scripts/installer | bash -s -- {directory-name}
 ```
 
 after that you have to add the following line to `~/.bashrc`.
