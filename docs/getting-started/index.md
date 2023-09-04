@@ -9,9 +9,27 @@ nav_order: 0
 
 # Getting Started
 
-**requirements:** python (≥3.8), cat, bash, git
+> **requirements:**
+> python (≥3.8)
+> {: .label }
+> python3-venv
+> {: .label }
+> bash
+> {: .label }
+> git
+> {: .label }
+> exiftool
+> {: .label }
+> imagemagick
+> {: .label }
+> libmediainfo-dev
+> {: .label }
 
 <sup>(An earlier version (≥3.5) of Python might also work but no guaranty)</sup>
+
+```bash
+sudo apt install -y python3 python3-venv bash git exiftool imagemagick libmediainfo-dev
+```
 
 # Setup
 
